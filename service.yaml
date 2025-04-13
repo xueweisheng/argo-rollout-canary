@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
   - port: 80
-    targetPort: 8080   # Update this to the correct container port
+    targetPort: http
     protocol: TCP
     name: http
   selector:
