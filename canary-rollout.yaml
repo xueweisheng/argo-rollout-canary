@@ -6,8 +6,6 @@ spec:
   replicas: 5
   strategy:
     canary:
-      trafficRouting:
-        nginx: {}
       steps:
       - setWeight: 20
       - pause: {}
